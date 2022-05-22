@@ -34,12 +34,9 @@ $cell-height: 42px;
 
 .checker-board {
   border: 1px solid gray;
-  display: grid;
-  grid-template-rows: repeat($max-row, $cell-height);
 
   .row {
-    display: grid;
-    grid-template-columns: repeat($max-column, $cell-width);
+    display: flex;
   }
 }
 
